@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import "../Main/main.scss"
 import {Link} from 'react-router-dom'

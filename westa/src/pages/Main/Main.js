@@ -1,12 +1,13 @@
 import React from 'react';
-import "../Main/main.css"
+import "../Main/main.scss"
+import {Link} from 'react-router-dom'
 
 function Main(props) {
     return (
     <div className="wrap">
         <nav className="navWrap">
             <div className="inner">
-                <h1 className="logo addIcon"><a href="">instagram</a></h1>
+                <h1 className="logo addIcon"><Link to={'/main'}>instagram</Link></h1>
 
                 <div className="searchArea">
                     <input type="text" className="mainSearch" />
@@ -224,17 +225,17 @@ function Main(props) {
 
                     <div className="dataInfoArea">
                         <ul>
-                            <li><a href="">Instagram 정보</a></li>
-                            <li><a href="">지원</a></li>
-                            <li><a href="">홍보 센터</a></li>
-                            <li><a href="">API</a></li>
-                            <li><a href="">채용 정보</a></li>
-                            <li><a href="">개인정보처리방침</a></li>
-                            <li><a href="">약관</a></li>
-                            <li><a href="">디렉터리</a></li>
-                            <li><a href="">프로필</a></li>
-                            <li><a href="">해시태그</a></li>
-                            <li><a href="">언어</a></li>
+                            <li><a href="#">Instagram 정보</a></li>
+                            <li><a href="#">지원</a></li>
+                            <li><a href="#">홍보 센터</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">채용 정보</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">약관</a></li>
+                            <li><a href="#">디렉터리</a></li>
+                            <li><a href="#">프로필</a></li>
+                            <li><a href="#">해시태그</a></li>
+                            <li><a href="#">언어</a></li>
                         </ul>
 
                         <p className="copyRight">© 2019 INSTAGRAM</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Login/login.css"
+import "../Login/login.scss"
 import {Link, useNavigate} from 'react-router-dom'
 
 const Login = () => {
@@ -26,7 +26,7 @@ const Login = () => {
                 <button className="btnLogin" disabled="disabled" onClick={goTomain} >로그인</button>
             </div>
 
-            <a href="" className="forgotPw">비밀번호를 잊으셨나요?</a>
+            <Link to={"/main"} className="forgotPw">비밀번호를 잊으셨나요?</Link>
         </div>
     </div>
     );
